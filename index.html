@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>List App</title>
-    <link type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
    <div id="contain">
-       <h1></h1>
-        <h2>Buy Stuff<span></span></h2>
-       <ul>
-           <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
+       <h1 id="logo"></h1>
+        <h1>jQuery To-Do List<span id="counter">0</span></h1>
+       <ul id="orange">
+           <li class="hot">Wake up</li>
+           <li class="cool">Get to work</li>
+           <li class="mild">Take clothes to dry cleaners</li>
+           <li class="orange">Work out</li>
        </ul>
+       <button id="btn" type="button" name="newItem">Add Item</button>
+       <form id="inputStuff">
+            <input type="text" id="inputContent">
+            <input type="submit" id="inputBtn">
+       </form>
    </div>
-    
+   
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script src="js/script.js"></script>   
 </body>
+
 </html>

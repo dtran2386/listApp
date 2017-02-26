@@ -1,3 +1,101 @@
 body {
-    background-color: #000;
+    background-color: #f4f4f4;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+}
+h1 {
+    color: grey;
+}
+#contain {
+    background-color: #403C3B;
+    width: 880px;
+    margin: auto;
+    text-align: center;    
+}
+#logo {
+    background-image: url('../images/kinglogo.png');
+    height: 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -999px;
+    padding: 1em;
+}
+ul {
+    padding: 0;
+}
+li {
+    background-color: #fff;
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid #f4f4f4;
+    text-align: left;
+    padding-left: 15px;
+    height: 50px;
+    color: #000;
+}
+li:hover {
+    background-color: #fff;
+    color: grey;
+}
+#counter {
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.hot {
+    background-color: red;
+}
+.cool {
+    background-color: blue;
+}
+.mild {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+.complete {
+    background-color: grey;
+    color: #fff;
+}
+#btn {
+    float: right;
+    margin-right: 50px;
+    height: 4em;
+    width: 8em;
+    border-radius: 9px;
+    background-color: #fff;
+    font-size: 100%;
+    color: grey;
+}
+#btn:hover {
+    background-color: red;
+    color: #fff;
+}
+#inputContent {
+    margin-bottom: 20px;
+    height: 3em;
+    width: 30em;
+    border-radius: 8px;
+}
+#inputBtn {
+    margin-bottom: 20px;
+    height: 3em;
+    width: 6em;
+    border-radius: 8px;
+    background-color: #fff;
+    color: grey;
+    font-size: 100%;
+}
+#inputBtn:hover {
+    background-color: red;
+    color: #fff;
+}
+@media (max-width: 880px) {
+    #contain { width: 400px; }
 }
